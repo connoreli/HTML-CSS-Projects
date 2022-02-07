@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cool Dog</title>
+		<meta charset="uft-8">
+	</head>
+	<body>
+		<p>Here's the cool dog you guys were looking for</p>
+		<img src = "cooldog.jpeg">
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Write title here</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<main>
+			<h1>
+				<nav>
+					<a href = "assignment.html">Home</a>
+					<a href = 'dog.html'>Dog Picture</a>
+					<a href = 'Dog_Video.html'>Dog Video</a>
+				</nav>
+			</h1>
+		</main>
+		<h3></h3>
+		<h6></h6>
+		<p></p>
+		<a href = "dog.html">Cool dog website</a>
+		<a href = "https://media.gq.com/photos/56be06bf63efb0fb31652756/1:1/w_2000,h_2000,c_limit/GettyImages-509642596.jpg">Kanye 2016 Listening Party</a>
+		<footer></footer>
+	</body>
+</html>

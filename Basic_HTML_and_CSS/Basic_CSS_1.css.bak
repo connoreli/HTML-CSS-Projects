@@ -1,0 +1,9 @@
+h1 {
+		color: blue;
+		text-align: middle;
+	}
+p  {	color: snow;
+		text-align: center;
+		background: black;
+		font-weight: bold;
+	}

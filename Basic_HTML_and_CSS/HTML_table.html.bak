@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheets" type="text/css" href="CSS_Table.css">
+	</head>
+		<body>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Height</th>
+					<th>Years in NBA</th>
+					<th>College</th>
+				</tr>
+				<tr>
+					<td>Jalen Brunson</td>
+					<td>6'1</td>
+					<td>4</td>
+					<td>Villanova</td>
+				</tr>
+				<tr>
+					<td>Luka Doncic</td>
+					<td>6'7</td>
+					<td>4</td>
+					<td>Real Madrid</td>
+				</tr>
+				<tr>
+					<td>Tim Hardaway Jr.</td>
+					<td>6'5</td>
+					<td>9</td>
+					<td>Michigan</td>
+				</tr>
+			</table>
+		</body>
+</html>
+			
