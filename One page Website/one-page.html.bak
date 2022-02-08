@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connor's Favorite Animals</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		
+		<!-- NAV -->
+		<div>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li>
+				<a href="#gallery"><li>GALLERY</li>
+				<a href="#videos"><li>VIDEO</li>
+				<a href="#contact"><li>CONTACT US</li>
+			</ul>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<h1>Connor's Animal Hall of Fame</h1>
+					<div>
+						<p>These are my favorite animals of all-time. My favorite animals are lions, bears, and gorillas. They are so much fun to watch!
+						</p>
+					</div>
+				</h1>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!--GALLERY -->
+		<section>
+			<div id="gallery">
+				<h3>Gallery</h3>
+				
+				<!-- GORILLA -->
+				<div>
+					<img src="./images/animals/Gorilla.jpg" alt="Gorilla">
+				</div>
+				<!-- END GORILLA -->
+				
+				<!-- LION -->
+				<div>
+					<img src="./images/animals/lion.jpg" alt="Lion">
+				</div>
+				<!-- END LION -->
+				
+				<!-- BEAR -->
+				<div>
+					<img src="./images/animals/bear.jpg" alt="Bear">
+				</div>
+				<!-- END BEAR -->
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- VIDEO -->
+		<section>
+			<div id="videos">
+				<h3>Videos</h3>
+			
+			<!-- BEAR -->
+				<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/qmMBN8bpyzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			<!-- END BEAR -->
+			
+			<!-- LION -->
+				<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/a5V6gdu5ih8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			<!-- END LION -->
+			
+			<!-- GORILLA -->
+				<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/iDaHPi8HOGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			<!-- END GORILLA -->
+			
+			</div>
+		</section>
+		<!-- END VIDEO -->
+		
+		<!-- FORM -->
+		<section>
+			<div id="contact">
+				<h3>Subscribe!</h3>
+					<p>Please provide some basic contact information.</p>
+					<div>
+						<form action="" method="post">
+							<input class="subscribe" type="text" value="First Name">
+							<input class="subscribe" type="text" value="Last Name">
+							<input class="subscribe" type="text" value="Email">
+							<input class="subscribe" type="text" value="Phone Number">
+							<div class="form-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+							<div>
+								<input type="submit" value="submit">
+							</div>
+						</form>
+					</div>
+			</div>
+		</section>
+		<!-- END FORM -->
+		
+		<!-- FOOTER -->
+		<div>
+			connorsanimals.com &nbsp;|&nbsp; &copy; 2022
+		</div>
+		<!-- END FOOTER -->
