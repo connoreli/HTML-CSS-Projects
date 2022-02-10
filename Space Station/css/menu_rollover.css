@@ -38,12 +38,12 @@ body {
     cursor: pointer;
 }
 
-.menu li :hover {
+.menu li:hover {
     background-color: #5EAFDF;
     color: #fff;
 }
 
-.menu li :hover ul {
+.menu li:hover ul {
     display: block;
     opacity: 1;
     visibility: visible;
