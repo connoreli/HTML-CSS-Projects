@@ -235,7 +235,7 @@ section {
 }
 
 .reservation form {
-    font-size: 15em;
+    font-size: 15px;
     outline: none;
     font-weight: 600;
     color: #8d8e8f;
@@ -277,7 +277,7 @@ section {
 
 .terms {
     margin-top: 13%;
-    margin: 30px 1px 0px 0px;
+    margin: 30px 1px 0 0;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
