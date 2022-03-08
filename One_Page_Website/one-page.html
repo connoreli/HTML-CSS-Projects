@@ -3,17 +3,18 @@
 	<head>
 		<title>Connor's Favorite Animals</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="../One_Page_Website/css/one-page-website.css">
+		<link rel="stylesheet" href="./css/one-page-website.css">
+		<script src="./JS/one-page-website.js"></script>
 	</head>
 	<body>
 		
 		<!-- NAV -->
 		<div>
 			<ul>
-				<a href="#home"></a><li>HOME</li>
-				<a href="#gallery"><li>GALLERY</li>
-				<a href="#videos"><li>VIDEO</li>
-				<a href="#contact"><li>CONTACT US</li>
+				<a href="#home"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#videos"><li>VIDEO</li></a>
+				<a href="#contact"><li>CONTACT US</li></a>
 			</ul>
 		</div>
 		<!-- END NAV -->
@@ -36,23 +37,63 @@
 			<div id="gallery">
 				<h3>Gallery</h3>
 				
-				<!-- GORILLA -->
-				<div>
-					<img src="./images/animals/Gorilla_1.jpg" alt="Gorilla">
+				<!-- Images used to open the lightbox -->
+				<div class="row">
+					<div class="column">
+						<img src="./images/animals/bear_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="./images/animals/gorilla_1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="./images/animals/lion_1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+					</div>
 				</div>
-				<!-- END GORILLA -->
 				
-				<!-- LION -->
-				<div>
-					<img src="./images/animals/lion_1.jpg" alt="Lion">
-				</div>
-				<!-- END LION -->
+				<!-- The Modal/Lightbox -->
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
 				
-				<!-- BEAR -->
-				<div>
-					<img src="./images/animals/bear_1.jpg" alt="Bear">
+						<div class="mySlides">
+							<div class="numbertext">1 / 3</div>
+							<img src="./images/animals/bear_1.jpg" style="width:100%">
+						</div>
+				
+						<div class="mySlides">
+							<div class="numbertext">2 / 3</div>
+							<img src="./images/animals/gorilla_1.jpg" style="width:100%">
+						</div>
+				
+						<div class="mySlides">
+							<div class="numbertext">3 / 3</div>
+							<img src="./images/animals/lion_1.jpg" style="width:100%">
+						</div>
+				
+						<!-- Next/previous controls -->
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+						<!-- Caption text -->
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+				
+						<!-- Thumbnail image controls -->
+						<div class="column">
+							<img class="demo" src="./images/animals/bear_1.jpg" onclick="currentSlide(1)" alt="Bear">
+						</div>
+				
+						<div class="column">
+							<img class="demo" src="./images/animals/gorilla_1.jpg" onclick="currentSlide(2)" alt="Gorilla">
+						</div>
+				
+						<div class="column">
+							<img class="demo" src="./images/animals/lion_1.jpg" onclick="currentSlide(3)" alt="Lion">
+						</div>
+
+					</div>
 				</div>
-				<!-- END BEAR -->
 			</div>
 		</section>
 		<!-- END GALLERY -->
